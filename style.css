@@ -1,0 +1,30 @@
+.maingrid{
+grid-template-columns: 200px 200px 200px 200px 200px;
+grid-template-rows: 50px 50px 50px;
+display: grid;
+grid-gap: 5px;
+height: 500px;
+}
+img{
+	width: 200px;
+	height: 200px;
+}
+.title {
+	border: black dotted 5px;
+	grid-column-start: span 5;
+	grid-row-start: span 3;
+}
+.topic1 {
+	border: black dotted 5px;
+	grid-column-start: span 2;
+	grid-row-start: span 3;
+}
+.topic2 {
+	border: black dotted 5px;
+	grid-column-start: span 2;
+	grid-column-start: 4;
+	grid-row-start: span 3;
+}
+body {
+  background-color: #bbd8f2;
+}
